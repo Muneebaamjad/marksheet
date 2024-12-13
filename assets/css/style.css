@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: wheat;
+ 
+}
+ 
+/* .container{
+align-items: center;
+    
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0, 0, 0.2);
+width: 40%;
+border-radius: 10px; */
+
+
+
+h1{
+
+    margin-bottom: 20px;
+    margin-top: 3rem;
+    text-align: center;
+    color: rgb(88, 123, 197);
+    font-family:sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    
+}
+input{
+    align-items: center;
+    display:block;
+    margin:10px 15px;
+   margin-left: 60px;
+   
+    padding: 10px;
+    width: 60%;
+    border-radius: 8px;
+    border-style:inset;
+    justify-content: space-between;
+
+}
+button{
+    padding: 15px 20px;
+    background-color:royalblue;
+    color: aliceblue;
+    border-radius: 6px;
+    margin-left: 18%;
+    margin-top: 20px;
+    font-size: 15px;
+}
+button:hover{
+    background:black;
+}
+.result{
+display:contents;
+    text-align: center;
+  color:black;
+    margin: 20px;
+    padding: 10px 15px 10px 8px;
+    font-size:1em;
+}
+.pass{
+color: green;
+}
+
+.fail{
+    color: red;
+}
+.CLASS{
+    display: inline-block;
+    margin-right: 60PX;
+
+}
+legend{
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+   font-weight: bold;
+}
+fieldset{
+    border: 4px double black;
+
+}
+.img{
+    height: 70px;
+    margin-right: 30px;
+}
